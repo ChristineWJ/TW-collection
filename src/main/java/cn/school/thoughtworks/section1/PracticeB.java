@@ -18,6 +18,6 @@ public class PracticeB {
                 }
             }
         }
-        return new ArrayList<>(rst);
+        return rst;
     }
 }

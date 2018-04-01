@@ -13,7 +13,7 @@ public class PracticeA {
                 rst.add(s);
             }
         }
-        return new ArrayList<>(rst);
+        return rst;
     }
 
 }

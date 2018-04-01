@@ -21,7 +21,7 @@ public class PracticeBTest {
        //选出1集合中与2集合中子数组的元素相同的元素
         List<String> collection1 = Arrays.asList("a", "e", "h", "t", "f", "c", "g", "b", "d");
         List<String> list = Arrays.asList("a", "d", "e", "f");
-        List<List<String>> collection2 = Arrays.asList(list);
+        List<List<String>> collection2 = Arrays.asList(list);  //？？？
 
         List<String> result = practiceB.collectSameElements(collection1, collection2);
         List<String> expectedResult = Arrays.asList("a", "e", "f", "d");
